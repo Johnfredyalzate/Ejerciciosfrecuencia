@@ -45,3 +45,5 @@ tabla_frecuencia = pd.DataFrame({
 
 # Mostrar la tabla
 print(tabla_frecuencia.to_string(index=False))
+
+print("hola mundo")

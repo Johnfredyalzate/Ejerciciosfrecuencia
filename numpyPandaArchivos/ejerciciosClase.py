@@ -1,4 +1,4 @@
-
+print("hola mundo")
 '''Ejercicios de archivos con Python
 Ejercicio 1: Escribir y leer un archivo de texto simple
 Este ejercicio te ayudará a familiarizarte con las
