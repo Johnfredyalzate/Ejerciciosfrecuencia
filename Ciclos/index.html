@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cicloWhile</title>
+</head>
+
+<body>
+    <script src="ciclowhile.js"> </script>
+
+    <script>
+        let suma = 0;
+
+        let continuar = true;
+
+        while (continuar) {
+
+            let entrada = prompt("Ingrese un numero o escriba la palabra salir para finalizar el programa")
+            //tolowerCase convierte a minúscula.
+            if (entrada.toLowerCase == "salir") {
+
+                continuar = false;
+            } else {
+                let numero = parseFloat(entrada);
+                suma += numero;
+                alert("Numero Añadido. Suma actual es: " + suma);
+            }
+
+        }
+        alert("Usted finalizó con salir");
+    </script>
+</body>
+
+</html>

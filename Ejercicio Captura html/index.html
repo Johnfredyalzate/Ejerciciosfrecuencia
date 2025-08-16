@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calcular Promedios</h1>
+        <form id="formularioCalculadora">
+            <div class="row">
+                <div class="col">
+                    <label for="">Nota 1</label>
+                    <input type="number" name="n1" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">Nota 2</label>
+                    <input type="number" name="n2" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">Nota 3</label>
+                    <input type="number" name="n3" required>
+                </div>
+            </div>
+            <button type="submit">Promedio</button>
+            <p id="mensajeError"></p> // solamente muestra error
+        </form>
+        <div id="salidaDatos"></div>
+    </div>
+    <script src="funcion.js"></script>
+</body>
+
+</html>
